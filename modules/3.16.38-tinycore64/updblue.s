@@ -8,11 +8,12 @@ wget -O /tmp/peppy_config.tar.gz https://raw.githubusercontent.com/lovehifi/tiny
 
 tar -xf /tmp/peppy_screensaver.tar.gz  --overwrite -C /
 
-tar -xf /tmp/peppy_config.tar.gz  --overwrite -C /
-
 tar -xf /tmp/configuration.tar.gz  --overwrite -C /
 
 /data/plugins/miscellanea/peppy_screensaver/install.sh
+
+tar -xf /tmp/peppy_config.tar.gz  --overwrite -C /
+
 sleep 5
 #reboot
 #touch /tmp/update2
