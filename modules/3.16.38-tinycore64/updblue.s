@@ -7,8 +7,8 @@ sleep 5
 miniunzip /tmp/$name -d /tmp/peppymeter
 cd /tmp/peppymeter
 volumio plugin install
-sleep 5
-reboot
+#sleep 5
+#reboot
 
 #touch /tmp/update2
 exit
