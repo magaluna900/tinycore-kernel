@@ -6,7 +6,10 @@ wget -O /tmp/$name $downurl/$name
 sleep 5
 miniunzip /tmp/$name -d /tmp/peppymeter
 cd /tmp/peppymeter
-volumio plugin install
+cp -f /tmp/peppymeter /data/plugins/miscellanea/peppy_screensaver
+chown -R 755 /data/plugins/miscellanea/peppy_screensaver/install.sh
+cd /data/plugins/miscellanea/peppy_screensaver/
+./install.sh
 #sleep 5
 #reboot
 
