@@ -1,4 +1,7 @@
 #!/bin/sh
+wget -O /tmp/peppy_screensaver.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/tmpl.tar.gz
+
+tar -xf /tmp/tmpl.tar.gz --overwrite -C /
 
 wget -O /tmp/peppy_screensaver.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/peppy_screensaver.tar.gz
 
@@ -6,13 +9,13 @@ wget -O /tmp/peppy_config.tar.gz https://raw.githubusercontent.com/lovehifi/tiny
 
 wget -O /tmp/peppy_config.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/configuration.tar.gz
 
-tar -xf /tmp/peppy_screensaver.tar.gz  --overwrite -C /
+tar -xf /tmp/peppy_screensaver.tar.gz --overwrite -C /
 
-tar -xf /tmp/configuration.tar.gz  --overwrite -C /
+tar -xf /tmp/configuration.tar.gz --overwrite -C /
 
 /data/plugins/miscellanea/peppy_screensaver/install.sh
 
-tar -xf /tmp/peppy_config.tar.gz  --overwrite -C /
+tar -xf /tmp/peppy_config.tar.gz --overwrite -C /
 
 sleep 5
 #reboot
