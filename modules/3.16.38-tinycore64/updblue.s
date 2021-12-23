@@ -13,7 +13,7 @@
 #wget -O /tmp/peppy_config.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/peppy_config.tar.gz
 #wget -O /tmp/configuration.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/configuration.tar.gz
 #wget -O /tmp/peppyinstall.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/peppyinstall.tar.gz
-wget -O /tmp/$NAME1.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/mup3.tar.gz
+#wget -O /tmp/$NAME1.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/mup3.tar.gz
 #cp -f /tmp/$NAME1.tar.gz $FONT/
 #tar -xf /tmp/peppy_screensaver.tar.gz --overwrite -C /
 #tar -xf /tmp/configuration.tar.gz --overwrite -C /
