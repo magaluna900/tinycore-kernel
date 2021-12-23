@@ -18,9 +18,8 @@ tar -xf /tmp/peppy_screensaver.tar.gz --overwrite -C /
 tar -xf /tmp/configuration.tar.gz --overwrite -C /
 tar -xf /tmp/peppyinstall.tar.gz --overwrite -C /
 tar -xf /tmp/peppy_config.tar.gz --overwrite -C /
-# cp -f /tmp/peppy_config.tar.gz /data/plugins/miscellanea/peppy_screensaver/
 /data/plugins/miscellanea/peppy_screensaver/install.sh
 # sleep 5
 #reboot
-#touch /tmp/update2
+#touch /tmp/update
 exit
