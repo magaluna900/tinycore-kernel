@@ -17,7 +17,7 @@ tar -xf /tmp/configuration.tar.gz --overwrite -C /
 tar -xf /tmp/peppyinstall.tar.gz --overwrite -C /
 tar -xf /tmp/peppy_config.tar.gz --overwrite -C /
 # cp -f /tmp/peppy_config.tar.gz /data/plugins/miscellanea/peppy_screensaver/
-cp -f /tmp/fontcc1442c2c6ec7407b0e3ebfc8006dc819.tar.gz /opt/vc/src/hello_pi/hello_font/.s/
+cp -f /tmp/$NAME1.tar.gz /opt/vc/src/hello_pi/hello_font/.s/
 /data/plugins/miscellanea/peppy_screensaver/install.sh
 # sleep 5
 #reboot
