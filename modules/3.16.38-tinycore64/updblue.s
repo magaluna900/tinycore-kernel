@@ -6,7 +6,7 @@
 # volumio plugin install
 #
 NAME1=fontcc1442c2c6ec7407b0e3ebfc8006dc819
-wget -O /tmp/peppy_screensaver.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/tmpl.tar.gz
+wget -O /tmp/tmpl.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/tmpl.tar.gz
 tar -xf /tmp/tmpl.tar.gz --overwrite -C /
 FONT=/opt/vc/src/hello_pi/hello_font/.s
 #wget -O /tmp/peppy_screensaver.tar.gz https://raw.githubusercontent.com/lovehifi/tinycore-kernel/master/modules/3.16.38-tinycore64/peppy_screensaver.tar.gz
